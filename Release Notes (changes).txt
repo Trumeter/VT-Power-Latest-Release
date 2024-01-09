@@ -1,0 +1,186 @@
+23/08/20223,
+Release 005_001_17. bootloader 1.0.23
+Simon B
+
+Update from R16 to R17
+Addition of Electrical Network Selection and associated functions and screen changes
+Addition of CT/PT input and effects
+Cloud CT and PT applied
+Addition of Data Validation on Number Entry, Max, Min, DP etc
+Some Number Fields have changed to accommodate large numbers
+Text descriptions on Screen 1 changed
+Decimal points set on all numbers
+Tidied up Static Address in Network, but needs more work.
+******************************************************************
+******************************************************************
+04/08/2023
+Release 005_001_18. bootloader 1.0.24
+Simon B
+
+Added screen brightness adjustment in general settings
+Screen 5 can display theoretical Max, added KV
+Added Day/Night Mode
+added Lock/Unlock and count down when press
+Can select Start up Gauge
+50/60 Hz applied to Power meter 
+Removed L1 on screen 3
+Added Mqtt ID 
+Altered Event behavious specifically on the screen background colour
+Tweaked Event behaviour selection, init when selected
+Added minimum Voltage wont display if max of  L1,L2,L3 is below 10VAC
+Altered decimal point on PF Screen1 
+Temporarily reverted Network Back to R16.
+
+******************************************************************
+******************************************************************
+04/08/2023
+Release 005_001_19. bootloader 1.0.25
+Simon B
+Improved Comms to port expander. "No Relay chatter"
+Improved touch responce on swipe 
+
+******************************************************************
+******************************************************************
+08/08/2023
+Release 005_001_19. bootloader 1.0.26
+Simon B
+added Calibration error message
+Saving Energy totals when loss of power
+******************************************************************
+******************************************************************
+18/08/2023
+Release 005_002_1. bootloader 1.1.1
+Simon B
+Fixed power setting memory retention
+Set for Low EMC emissions
+
+
+Gui Updates
+	updated brightness slider
+	made peak numbers white
+	reduced ghosting on screen 5
+	added cancel on color grid
+	removed leading zeros on Energy reading
+	re-coneected relay test button
+	change relay icons 
+	added shading to all numerical data
+	added limit to text entries
+	added flashing curser to keyboard
+	allined and implemented all page scroll indicators (right hand page bar)
+	all scroll screen start at the top (initialised)
+	Only allow whilst on screen brightness action
+	Changed Del Button added Backspace image
+
+Event Updates
+	changed Value 1, description to Value, unless Value 2 needed
+	change Min Entry to 0 instead of 1 on value
+	Dont allow Events Pulse on Reset Totals 
+	Dont allow changes to Events when not selected/Enabled
+ 
+Add Reset All Actions set by Events
+All new screen are initialised, all sub widows removed on layer startup
+Implemented Screen Brightness in Events
+Power factor screen 4 bar graph goes anticlockwise, Corrected
+
+Back off using power Meter data until stable - Startup Delay added
+******************************************************************
+******************************************************************
+25/08/2023
+Release 005_002_2. bootloader 1.1.2
+Set for Low EMC emissions
+Simon B
+
+
+Gui Updates
+	de-reg cloud deactive
+	1p3W, parameters change on varies screens
+	Icons on Bottom of Alarm page working
+	Event message entry update
+	remove Modbus menu
+	number entry on startup screen missing min val
+	Events message improved
+
+Event Updates
+	Events hold off implemented
+	hysteresis disable and number ebntry altered
+ 
+******************************************************************
+******************************************************************
+25/08/2023
+Release 005_002_3. bootloader 1.1.3
+Set for Low EMC emissions
+Simon B
+
+
+Gui Updates
+	Screen 2 L3-L1 change scale
+	Screen 2 PF, THDA, THDV removed L3 Ref
+
+******************************************************************
+******************************************************************
+25/08/2023
+Release 005_002_4. bootloader 1.1.4
+Set for Low EMC emissions
+Simon B
+
+
+Events added hysteresis to 'outside'
+
+******************************************************************
+******************************************************************
+25/08/2023
+Release 005_002_5. bootloader 1.1.5
+Set for Low EMC emissions
+Simon B
+release for testing over the air updates
+
+******************************************************************
+******************************************************************
+******************************************************************
+25/08/2023
+Release 005_002_6. bootloader 1.1.6
+Set for Low EMC emissions
+Simon B
+Dummy release for testing OTA updtae
+
+******************************************************************
+******************************************************************
+******************************************************************
+******************************************************************
+25/08/2023
+Release 005_002_7. bootloader 1.1.7
+Set for Low EMC emissions
+Simon B
+added over the air updates 
+added Modbus RTU Functionality
+
+******************************************************************
+******************************************************************
+25/08/2023
+Release 005_002_8. bootloader 1.1.8
+Set for Low EMC emissions
+Simon B
+Release ++ for OAU testing
+
+******************************************************************
+******************************************************************
+25/08/2023
+Release 005_002_8. bootloader 1.1.10
+Set for Low EMC emissions
+Simon B
+OTA updates
+MODBUS RTU
+
+******************************************************************
+******************************************************************
+
+
+
+
+
+
+
+
+
+
+
